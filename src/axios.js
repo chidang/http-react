@@ -13,6 +13,6 @@ instance.interceptors.request.use(request => {
   return Promise.reject(error);
 });
 
-instance.defaults.headers.common['Authorization'] = 'AUTH TOKEN FROM INSTANCE';
+// instance.defaults.headers.common['Authorization'] = 'AUTH TOKEN FROM INSTANCE';
 
 export default instance;
